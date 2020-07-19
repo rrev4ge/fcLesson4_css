@@ -1,0 +1,32 @@
+:root {
+    --main-border: 1px solid green;
+}
+
+
+.container {
+    border: var(--main-border);
+
+}
+
+p::first-line {
+    color: yellowgreen;
+}
+
+p::first-letter {
+    font-size: 48px;
+}
+
+li::before {
+    content: '>>';
+}
+
+span + span::before{
+    content: '  |  ';
+}
+
+p::selection {
+    background-color: yellow;
+    color: red;
+}
+
+
