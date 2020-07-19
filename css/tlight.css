@@ -1,0 +1,58 @@
+.tLights {
+    position: absolute;
+    background-color: black;
+    width: 70px;
+    height: 230px;
+    z-index: 100;
+    border: 1px solid black;
+    left: 20%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+
+
+}
+
+.redLight {
+    background-color: red;
+    position: absolute;
+    border-radius: 70px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    border: 1px solid black;
+    left: 5px;
+    top: 10px;
+
+
+}
+
+.yellowLight {
+
+    background-color: yellow;
+    position: absolute;
+    border-radius: 70px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    border: 1px solid black;
+    left: 5px;
+    top: 85px;
+    bottom: 85px;
+
+
+}
+
+.greenLight {
+
+    background-color: green;
+    position: absolute;
+    border-radius: 70px;
+    width: 60px;
+    height: 60px;
+    z-index: 100;
+    border: 1px solid black;
+    left: 5px;
+    bottom: 10px;
+
+}

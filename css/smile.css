@@ -1,0 +1,74 @@
+.smile {
+    background-color: yellow;
+
+    position: absolute;
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+    z-index: 100;
+    border: 1px solid black;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%);
+    transform: translateY(-50%);
+
+
+}
+
+.eyeLeftSmile {
+    background-color: white;
+    position: absolute;
+    border-radius: 10px;
+    width: 20px;
+    height: 20px;
+    z-index: 100;
+    left: 17%;
+    top: 20%;
+
+
+}
+
+.eyeRightSmile {
+    background-color: white;
+    position: absolute;
+    border-radius: 9px;
+    width: 17px;
+    height: 17px;
+    z-index: 100;
+    right: 17%;
+    top: 23%;
+
+
+
+
+}
+
+.mouthSmile {
+
+    position: absolute;
+    background-color: white;
+    border-radius: 0  0 50px 50px;
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+    left: 50%;
+    bottom: 20%;
+    transform: translateX(-50%)
+
+
+
+}
+
+.mouth2Smile {
+
+    position: absolute;
+    background-color: yellow;
+    border-radius: 0  0 50px 50px;
+    width: 50px;
+    height: 20px;
+    z-index: 100;
+    left: 50%;
+    bottom: 40%;
+    transform: translateX(-50%)
+
+    }
